@@ -1,0 +1,11 @@
+{
+  "name": "TimeSuck",
+  "version": "0.0.1",
+  "dependencies": {
+    "angular": "^1.4.7",
+    "body-parser": "^1.14.1",
+    "bootstrap": "^3.3.5",
+    "express": "^4.13.3",
+    "mongoose": "^4.1.10"
+  }
+}

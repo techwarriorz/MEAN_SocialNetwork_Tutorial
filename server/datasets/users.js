@@ -4,5 +4,7 @@ module.exports = mongoose.model('User', {
     username: String,
     password: String,
     image: String,
-    bio: String
+    bio: String,
+	following: [{userId: String}],
+	followers: [{userId: String}]
 });

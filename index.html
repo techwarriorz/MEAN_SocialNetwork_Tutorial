@@ -8,7 +8,8 @@
         <div class="container">
             <div ng-show="!loggedIn"> <input type="text" ng-model="login.email"> <input type="password" ng-model="login.password"> <button ng-click="logUserIn()">Login</button> <a ui-sref="signUp">Create An Account</a></div>
             <div ng-show="loggedIn"> <a ui-sref="editProfile">Edit Profile</a> 
-                                    <a ng-click="logOut();">Logout;</a>
+									 <a ui-sref="follow">Follow Users</a>
+                                    <a ng-click="logOut();">Logout</a>
             </div>
         </div>
     </nav>
@@ -27,6 +28,7 @@
     <script src="app/navigation/navigation-controller.js"></script>
     <script src="app/profile/edit-profile-controller.js"></script>
     <script src="app/main/main-controller.js"></script>
+	<script src="app/follow/follow-controller.js"></script>
     
     
     <!-- Libraries -->

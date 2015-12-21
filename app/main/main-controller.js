@@ -27,7 +27,13 @@
         };
         
         function getWastes (initial){
-           $http.get('api/waste/get').success(function (response){
+			var data = {};
+			if ($scope.user){
+				data.following = angular.copy($scope.user.following);
+				data.following.push({userId: $scope.user._id})
+			}
+			console.log(data);
+           $http.post('api/waste/get', data).success(function (response){
                 if (initial){
                     $scope.wastes = response;
                 } else {

@@ -12,7 +12,7 @@ In this project we built a simple Twitter like website called "Time-Waste" a bar
 If at any point you get lost please refer to the videos posted at https://www.youtube.com/watch?v=lcHlywuHNwI&amp;list=PL-4zzaVqc2aiCFiPtr-B_choUFFebVQhh.
 
 
-If you found this code or the videos to be useful, please follow us on twitter at (http://twitter.com/techwarriorz) and subscribe to our youtube channel (https://www.youtube.com/channel/UC3q_EhMMzZkC3Z8XE0MIf7g)
+If you found this code or the videos to be useful, please subscribe to our youtube channel (https://www.youtube.com/channel/UC3q_EhMMzZkC3Z8XE0MIf7g)
 
 
 Happy Coding :)
